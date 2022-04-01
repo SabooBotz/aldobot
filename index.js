@@ -5789,6 +5789,11 @@ fs.writeFileSync('./src/absen.json', JSON.stringify(absen))
 }, tem)
 break
 
+case 'sad':
+dssh = fs.readFileSync('./deshaa.mp3')
+alpha.sendMessage(from, dssh, audio, { quoted : mek, mimetype: 'audio/mp4', ptt:true })
+break
+
 case 'susu':
 tengg = fs.readFileSync('./vn.mp3')
 alpha.sendMessage(from, tengg, audio, { quoted : mek, mimetype: 'audio/mp4', ptt:true })
